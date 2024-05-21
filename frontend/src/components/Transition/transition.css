@@ -1,0 +1,89 @@
+.transitionContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.transitionTop{
+  width: 200px;
+  background: #ECECEC;
+  padding: 30px;
+  border-radius: 10px;
+  rotate: -33deg;
+  position: fixed;
+  right: -150px;
+  transition: 1s;
+}
+
+.transitionTop1{
+  width: 200px;
+  background: #ECECEC;
+  border-radius: 10px;
+  rotate: -51deg; 
+  position: fixed;
+  padding: 30px;
+  right: -150px;
+  bottom: 270px;
+  transition: 1s;
+}
+
+.transitionTop1:hover{
+  rotate: -27.21deg;
+  right: 10px;
+  bottom: 350px;
+  transition: 1s;
+}
+
+.transitionTop:hover{
+  rotate: -9.15deg;
+  right: 20px;
+  transition: 1s;
+}
+
+.colTxt{
+  color: #8424DE;
+}
+
+.topTxt{
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  padding: 20px;
+}
+
+.topBtnWrapper{
+  display: flex;
+}
+
+
+.topButton{
+  width: 168px;
+  height: 47.8px;
+  border-radius: 459px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 30px;
+  background-color: #8424DE;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.topCircle{
+  width: 47.8px;
+  height: 47.8px;
+  border-radius: 50%;
+  background: #8424DE;
+  margin-top: 30px;
+  margin-left: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px){
+  .transitionContainer{
+    display: none;
+  }
+}

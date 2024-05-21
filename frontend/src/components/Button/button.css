@@ -1,0 +1,68 @@
+.blackBtn {
+    background: var(--headerHBtnCol);
+    font-size: 14px;
+    color: var(--primary-bgColor);
+    padding: 15px 25px;
+    line-height: 1;
+    border: none;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+.footerBtn {
+    background: var(--footerBtnColor);
+    font-size: 14px;
+    color: var(--headertxtCol);
+    padding: 16px 24px 17px 24px;
+    border-radius: 50px;
+    border: none;
+    margin: 2.5px;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.footerBtn:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    background: var(--headerHBtnCol);
+    color: var(--primary-bgColor);
+}
+
+.uploadBtn {
+    background: var(--headerHBtnCol) !important;
+    font-size: 14px !important;
+    color: var(--primary-bgColor) !important;
+    padding: 15px 25px !important;
+    line-height: 1 !important;
+    border: none !important;
+    transition: 1s !important;
+    border-radius: 25px !important;
+    cursor: pointer;
+}
+
+.uploadBtn:hover {
+    transition: 1s;
+    background: #8424DE !important;
+}
+
+.blackBtn:hover {
+    cursor: pointer;
+    transition: 1s;
+    background: #8424DE;
+}
+
+.welcomeLinkBtn {
+    color: var(--headertxtCol);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.welcomeLinkBtn:hover {
+    color: #606060;
+}
+
+@media (max-width: 380px) {
+    .blackBtn {
+        margin-top: 10px;
+    }
+}

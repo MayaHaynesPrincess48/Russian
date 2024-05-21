@@ -1,0 +1,89 @@
+.welcome-leftWrapper {
+    /* width: 40%; */
+}
+
+.welcome-rightWrapper {
+    /* width: 60%; */
+}
+
+.welcomeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 347px;
+}
+
+.welcome {
+    padding-top: 100px !important;
+}
+
+.logoLink {
+    max-width: 250px;
+}
+
+.welLogoImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.xlText {
+    font-size: 66px !important;
+    line-height: 79px !important;
+    font-weight: 600 !important;
+    color: #8424DE;
+}
+
+.lgText {
+    font-size: 66px !important;
+    font-weight: 500 !important;
+    color: var(--primary-txtColor);
+}
+
+.welSmTxt {
+    max-width: 500px;
+
+}
+
+@media (max-width: 1031px) {
+
+    .xlText,
+    .lgText {
+        font-size: 45px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .welSmTxt {
+        width: 100%;
+        margin: auto;
+    }
+
+    .welcome-leftWrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-rightWrapper {
+        width: 100%;
+        margin: auto;
+        /* margin: auto; */
+    }
+
+    .lgText,
+    .smText {
+        text-align: center;
+    }
+}

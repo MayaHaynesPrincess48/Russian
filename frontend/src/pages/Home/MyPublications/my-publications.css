@@ -1,0 +1,146 @@
+.myPublication {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.pubCardSquare {
+    width: 24%;
+    display: flex;
+    justify-content: center;
+}
+
+.pubCard {
+    max-width: 275px;
+    height: 310px;
+    width: 100%;
+    background-color: var(--cardColor) !important;
+    transition: 1s;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mdText {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #8424DE;
+    padding: 0 20px !important;
+}
+
+.mmdText {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary-bgColor);
+    padding: 0 20px !important;
+}
+
+.addBtn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.pubImg{
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    transform: translateX(175px);
+    margin-top: 55px;
+}
+
+.pubCard:hover {
+    .cardHover {
+        display: none;
+    }
+    .pubImg{
+        display: none;
+    }
+}
+
+.addBtnStyle {
+    width: 168px;
+    height: 47px;
+    background: white;
+    border-radius: 459px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 150px;
+}
+
+.loremSecondCircleBorder {
+    width: 56px;
+    height: 56px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loremSeconCircleContent {
+    width: 50px;
+    height: 50px;
+    background: white;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.pubCard:hover {
+    background: #8424DE !important;
+    rotate: 5.13deg;
+    transition: 0.5s;
+
+    .loremCardHeaderTitle {
+        display: none;
+    }
+
+    .loremCardContentTitle {
+        display: none;
+    }
+
+    .lorem-card-content-subtitle {
+        display: none;
+    }
+
+    .addBtn {
+        display: flex;
+    }
+
+    .loremCardHeaderSubtitle {
+        padding-top: 20px;
+    }
+}
+
+.addBtn:hover {
+    cursor: pointer;
+}
+
+@media(max-width: 1160px) {
+    .pubCardSquare {
+        width: 50%;
+    }
+}
+
+@media(max-width: 670px) {
+    .pubCardSquare {
+        width: 100%;
+        margin-top: 50px !important;
+    }
+}

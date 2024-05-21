@@ -1,0 +1,9 @@
+.mySwiper {
+    padding: 20px !important;
+    background-color: var(--primary-bgColor);
+}
+
+.swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+}

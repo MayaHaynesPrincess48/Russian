@@ -1,0 +1,166 @@
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.mdAvatar {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+.smAvatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.customerCard {
+  padding: 15px;
+  background-color: var(--primary-bgColor);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.cardHeader {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px 20px 0 0 !important;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+
+.cardBody {
+  background-color: #D7ADFF !important;
+  padding: 15px;
+  border-radius: 0 0 20px 20px !important;
+}
+
+.cardContent {
+  border-radius: 10px !important;
+  padding: 10px !important;
+  text-align: left !important;
+}
+
+.cardIcon {
+  background-color: #EAF5F9;
+  color: #3C7DA7;
+  border-radius: 15px;
+}
+
+.historyCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.cardStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 180px;
+  padding: 15px;
+  background-color: var(--primary-bgColor);
+  max-width: 689px !important;
+}
+
+.img-card {
+  flex-direction: column !important;
+}
+
+.imgStyle {
+  height: 180px;
+  padding: 15px;
+}
+
+.imgCardStyle {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  height: 210px;
+  background-color: var(--primary-bgColor);
+}
+
+.xmText {
+  font-size: 12px;
+  color: var(--headertxtCol);
+}
+
+.leftWrap {
+  width: 30%;
+}
+
+.rightWrap {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.cardTxt {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-txtColor);
+  padding: 0 20px;
+}
+
+.card-left {
+  width: 40%;
+}
+
+.right-img {
+  width: 40%;
+  min-width: 300px;
+}
+
+@media (max-width: 1000px) {
+  .cardStyle {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    width: 100%;
+    height: auto;
+  }
+
+  .reviewCon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .customerCard {
+    width: 100%;
+  }
+
+  .historyCards {
+    width: 100%;
+  }
+
+  .leftWrap,
+  .rightWrap {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .customerCard {
+    padding: 0px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .historyCards {
+    flex-direction: column;
+  }
+
+  .cardStyle {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .right-img,
+  .card-left {
+    width: 100% !important;
+  }
+
+}

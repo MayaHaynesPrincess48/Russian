@@ -1,0 +1,93 @@
+.emailWrapper {
+    background: var(--boxColor);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailTitle {
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--primary-txtColor);
+}
+
+.emailBgCol {
+    background-color: var(--inputPrimaryCol) !important;
+    color: var(--primary-txtColor) !important;
+}
+
+.css-batk84-MuiInputBase-root-MuiFilledInput-root::after {
+    border: none !important;
+}
+
+.css-batk84-MuiInputBase-root-MuiFilledInput-root::before {
+    border: none !important;
+}
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+    padding: 10px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+.groupImg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.emailTxt {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-txtColor);
+    margin-top: 25px;
+}
+
+.emailInputWrapper {
+    margin-top: 100px;
+}
+
+.circleIconWrap {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.emailCircle {
+    /* width: 100%;
+    max-width: 48px; */
+    width: 48px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E0E0E0;
+    border-radius: 50%;
+    margin-right: 12px;
+    filter: invert(var(--filterInvert)) !important;
+}
+
+@media (max-width: 880px) {
+    .emailWrapper {
+        flex-direction: column;
+    }
+
+    .emailTitle {
+        text-align: center;
+    }
+
+    .emailTxt {
+        text-align: center;
+    }
+
+    .emailInputWrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .circleIconWrap {
+        margin: auto;
+        margin-top: 10px;
+    }
+}

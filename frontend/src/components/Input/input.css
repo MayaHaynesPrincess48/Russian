@@ -1,0 +1,14 @@
+.inputCom {
+    height: 45px;
+    background: var(--inputPrimaryCol);
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 752px) {
+    .inputCom {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+}

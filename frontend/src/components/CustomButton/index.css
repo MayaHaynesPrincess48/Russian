@@ -1,0 +1,36 @@
+.icon-button {
+  display: flex;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-title {
+  background-color: white;
+  border-radius: 30px;
+  color: #8424DE;
+  padding: 10px;
+}
+
+.button-icon {
+  position: relative;
+}
+
+.vector-icon {
+  position: absolute;
+  top: -6px;
+  width: 45px;
+  left: -7px;
+}
+
+.icon {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: -7px;
+}

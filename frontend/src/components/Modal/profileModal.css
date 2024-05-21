@@ -1,0 +1,55 @@
+.dialogTitle {
+    font-size: 55px !important;
+    color: var(--headerHBtnCol);
+}
+
+.dialogText {
+    color: var(--headerHBtnCol) !important;
+}
+
+.dialogLetter {
+    color: var(--headerHBtnCol) !important;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    margin-top: 70px !important;
+}
+
+.profileField {
+    width: 240px !important;
+    margin: 6px !important;
+    background: var(--inputPrimaryCol) !important;
+}
+
+.modalTextArea {
+    width: 98% !important;
+    height: 136px !important;
+    background: var(--inputPrimaryCol) !important;
+    border-radius: 5px !important;
+    border: none !important;
+    margin-top: 35px !important;
+}
+
+.checkTxt {
+    color: var(--headertxtCol);
+    font-size: 14px !important;
+    margin-top: 10px !important;
+}
+
+.welcomeProModal{
+    padding: 50px 20px !important;
+    max-width: 720px !important;
+    background: var(--headerBtnCol);
+}
+
+.messageInput {
+    width: 250px;
+    font-size: 1rem;
+    /* color: var(--headertxtCol); */
+    background: var(--inputPrimaryCol);
+    border: none;
+    animation-duration: 10ms;
+    padding: 19px 14px;
+    margin-top: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+}

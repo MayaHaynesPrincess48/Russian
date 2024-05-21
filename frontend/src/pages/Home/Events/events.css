@@ -1,0 +1,31 @@
+.rowWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+
+.mdCol {
+  width: 35%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.smCol {
+  width: 20%;
+  padding: 10px;
+
+}
+
+@media (max-width: 864px) {
+
+  .mdCol,
+  .smCol {
+    width: 100%;
+    text-align: center;
+  }
+}
